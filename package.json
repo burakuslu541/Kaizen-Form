@@ -1,0 +1,32 @@
+{
+  "name": "todo-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.8",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.7"
+  },
+  "description": "There is an example of a restful api developed with nodejs, express and mongodb. <br> If you want to read the article written for this repository : [Medium Article Link](https://medium.com/@berkekurnaz/node-js-express-ve-mongodb-i%CC%87le-restful-api-yazmak-62643b8bcceb)",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burakuslu541/ExpressJsAndMongooseExample.git"
+  },
+  "bugs": {
+    "url": "https://github.com/burakuslu541/ExpressJsAndMongooseExample/issues"
+  },
+  "homepage": "https://github.com/burakuslu541/ExpressJsAndMongooseExample#readme"
+}
